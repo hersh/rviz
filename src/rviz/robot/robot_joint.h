@@ -30,23 +30,20 @@
 #ifndef RVIZ_ROBOT_JOINT_H
 #define RVIZ_ROBOT_JOINT_H
 
-#include <string>
-#include <map>
-
 #include <QObject>
 
 #ifndef Q_MOC_RUN
+#include <string>
+#include <map>
 #include <OgreVector3.h>
 #include <OgreQuaternion.h>
 #include <OgreAny.h>
 #include <OgreMaterial.h>
-#endif
-
 #include <urdf/model.h>
 #include <urdf_model/pose.h>
-
 #include "rviz/ogre_helpers/object.h"
 #include "rviz/selection/forwards.h"
+#endif
 
 namespace Ogre
 {

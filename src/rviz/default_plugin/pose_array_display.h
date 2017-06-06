@@ -30,11 +30,11 @@
 #ifndef RVIZ_POSE_ARRAY_DISPLAY_H_
 #define RVIZ_POSE_ARRAY_DISPLAY_H_
 
-#include <geometry_msgs/PoseArray.h>
-
 #include "rviz/message_filter_display.h"
-
+#ifndef Q_MOC_RUN
+#include <geometry_msgs/PoseArray.h>
 #include <boost/ptr_container/ptr_vector.hpp>
+#endif
 
 namespace Ogre
 {

@@ -30,16 +30,16 @@
 #ifndef RVIZ_ROBOT_H_
 #define RVIZ_ROBOT_H_
 
+#include <QObject>
+#ifndef Q_MOC_RUN
 #include "link_updater.h"
-
 #include <string>
 #include <map>
-
 #include <OgreVector3.h>
 #include <OgreQuaternion.h>
 #include <OgreAny.h>
-
 #include <urdf/model.h> // can be replaced later by urdf_model/types.h
+#endif
 
 namespace Ogre
 {
