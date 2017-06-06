@@ -2,6 +2,17 @@
 Changelog for package rviz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.10 (2017-06-05)
+--------------------
+* Fix debian jessie compiler error (`#1111 <https://github.com/ros-visualization/rviz/issues/1111>`_)
+* Contributors: William Woodall
+
+1.12.9 (2017-06-05)
+-------------------
+* Fix variable name (`#1104 <https://github.com/ros-visualization/rviz/issues/1104>`_)
+  Somehow, variable names got out of sync. Lines 370 and 371 refer to "parameters" but it is "params" everywhere else.
+* Contributors: genemerewether
+
 1.12.8 (2017-05-07)
 -------------------
 * Fixed bug where generated material names were not unique (`#1102 <https://github.com/ros-visualization/rviz/issues/1102>`_)
