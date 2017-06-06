@@ -394,7 +394,7 @@ void Display::associatedPanelVisibilityChange( bool visible )
   }
   else
   {
-    setEnabled( false );
+    //    setEnabled( false );
   }
 }
 
